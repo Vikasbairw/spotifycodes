@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height:100%; 
+  background: #000; 
+}
+.main{
+    max-width: 1400px;
+border:1px solid black;
+margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.button{
+    padding: 5px;
+    border-radius: 10%;
+    background-color: rgb(56, 230, 21);
+}
+li{
+    list-style: none;
+    color: white;
+    font-family: "Merriweather", serif;
+}
+.second{
+    height:70vh;
+    width: 100%;
+    background-image: url('./bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play{
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.play input{
+    width: 80%;
+
+}
+.play .icon{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+gap: 20px;
+padding-top: 10px;
+}
+.playmusic{
+    font-size: 45px;
+}
+.second_one_item{
+    width: 60%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.listitems{
+    height: 50px;
+    width: 500px;
+    background: #07c113d1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    padding: 0px 8px 0px 8px;
+    border-radius: 50px;
+    /* margin: 10px; */
+}
+.images_divider{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   color: white;
+}
+.time_divider{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+    color: white;
+ }
+ .playmode{
+    font-size:25px;
+    color: #ef570a;
+ }
+ img{
+    height: 50px;
+    border-radius: 50%;
+ }
+ 
+@media (w:600px) {
+    .second_one_item{
+        width: 100%;
+    }
+}
