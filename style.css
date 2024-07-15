@@ -19,6 +19,7 @@ margin: auto;
 }
 nav{
     display: flex;
+    padding: 0px 20px;
     justify-content: space-between;
 }
 ul{
@@ -38,7 +39,7 @@ li{
     font-family: "Merriweather", serif;
 }
 .second{
-    height:70vh;
+    height:65vh;
     width: 100%;
     background-image: url('./bg.jpg');
     background-position: center center;
@@ -81,7 +82,7 @@ padding-top: 10px;
     align-items: center;
 }
 .listitems{
-    height: 50px;
+    height: 40px;
     width: 500px;
     background: #07c113d1;
     display: flex;
@@ -110,7 +111,8 @@ padding-top: 10px;
     color: #ef570a;
  }
  img{
-    height: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
  }
  
